@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+//import "enums.proto";
+
+service DrugDataService {
+    rpc MigrateData(MigrateDataRequest) returns (MigrateDataResponse);
+}
+
+message MigrateDataRequest {
+    string file_name = 1;
+}
+
+message MigrateDataResponse {
+    bool status = 1;
+    string message = 2;
+}

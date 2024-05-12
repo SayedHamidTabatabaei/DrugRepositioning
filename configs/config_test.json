@@ -1,0 +1,11 @@
+{
+  "mysql": {
+    "host": "localhost",
+    "user": "admin",
+    "password": "Sht#htt@1366!96~Taba",
+    "database": "DrugBank"
+  },
+  "services": {
+    "drug-data-service-address": "localhost:50151"
+  }
+}
